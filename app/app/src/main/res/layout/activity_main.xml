@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.carryhjr.youfang.MainActivity">
+
+    <TextView
+        android:id="@+id/wendu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="49dp"
+        android:layout_y="140dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <TextView
+        android:id="@+id/shidu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="216dp"
+        android:layout_y="138dp"
+        android:text="TextView"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="210dp"
+        android:layout_y="97dp"
+        android:text="湿度(%RH)"
+        android:textColor="#00ff00"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="98dp"
+        android:text="温度(℃)"
+        android:textColor="#00ff00"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="27dp"
+        android:layout_y="285dp"
+        android:text="火灾检测"
+        android:textColor="#222222"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="391dp"
+        android:text="红外检测"
+        android:textColor="#222222"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_x="29dp"
+        android:layout_y="316dp"
+        android:text="通过可燃气体检测可及时帮您发现险情"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="423dp"
+        android:text="通过红外检测及时发现闯入者"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="283dp" />
+    <ToggleButton
+        android:id="@+id/fire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="272dp"
+        android:layout_y="285dp"
+        android:background="@drawable/selector_butn_toggle"
+        android:checked="true"
+        android:text=""
+        android:textOff=""
+        android:textOn=""
+
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ToggleButton
+        android:id="@+id/thief"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="268dp"
+        android:layout_y="389dp"
+        android:background="@drawable/selector_butn_toggle"
+        android:checked="true"
+
+        android:text=""
+        android:textOff=""
+        android:textOn=""
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="67dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="42dp"
+        android:layout_y="203dp"
+        android:text="-------------------------------------------------------------------------"
+        tools:layout_editor_absoluteX="119dp"
+        tools:layout_editor_absoluteY="218dp" />
+
+    <TextView
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="27dp"
+        android:text="-------------------------------------------------------------------------"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="102dp" />
+</AbsoluteLayout>

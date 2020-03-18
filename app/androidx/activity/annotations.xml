@@ -1,0 +1,7 @@
+<root>
+    <item name='androidx.activity.ComponentActivity void onCreate(android.os.Bundle)'>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val name="pure" val="true" />
+        </annotation>
+    </item>
+</root>
